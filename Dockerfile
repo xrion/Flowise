@@ -11,7 +11,7 @@ WORKDIR /usr/src/packages
 
 # Copy root package.json and lockfile
 COPY package.json ./
-COPY yarn.lock ./
+#COPY yarn.lock ./
 
 # Copy components package.json
 COPY packages/components/package.json ./packages/components/package.json
